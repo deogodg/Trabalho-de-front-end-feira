@@ -1,6 +1,5 @@
-body {
-  background-color: black;
-}
+
+
 
 .principal {
   background-image: url("tcrado.png");
@@ -41,4 +40,15 @@ border: 0;
   align-items: center;
   
 }
+
+@media(max-width:768px){
+ .principal {
+  flex-direction: column;
+  align-items: center;
+ }
+ .caixa{
+  width: 95%;
+  margin-bottom: 10px;
+ }
+  }
 
