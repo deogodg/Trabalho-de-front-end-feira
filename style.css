@@ -1,10 +1,11 @@
-
-
+body {
+  background-color: black;
+  background-image:url("tcrado.png") ;
+  background-repeat: no-repeat;
+  align-items: center;
+}
 
 .principal {
-  background-image: url("tcrado.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
   display: flex;
   align-items: center;
   text-align: center; 
@@ -20,9 +21,8 @@
   border-radius: 20px;
   margin: 0 auto;
   backdrop-filter: blur(5px);
- 
-
-
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
   
 }
 
@@ -38,17 +38,13 @@ border: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  flex: 1 1 150px;
 }
 
-@media(max-width:768px){
- .principal {
-  flex-direction: column;
-  align-items: center;
- }
- .caixa{
-  width: 95%;
-  margin-bottom: 10px;
- }
-  }
+@media (min-width: 760px) {
+    body{
+      font-size: 18px;
+      padding: 20px;
+    }
+}
 
