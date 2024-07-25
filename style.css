@@ -3,10 +3,13 @@ body {
   background-image:url("tcrado.png") ;
   background-repeat: no-repeat;
   align-items: center;
-}
+  height: 100%;
+  background-attachment: scroll;
+  }
 
 .principal {
   display: flex;
+  
   align-items: center;
   text-align: center; 
   height: 100vh;
@@ -16,7 +19,6 @@ body {
 }
 
 .caixa {
-  width: 1250px;
   height: 250px;
   border-radius: 20px;
   margin: 0 auto;
@@ -38,13 +40,42 @@ border: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 1 150px;
+ 
 }
 
-@media (min-width: 760px) {
-    body{
-      font-size: 18px;
-      padding: 20px;
+.icone img{
+  padding: 20px;
+  width: 250px;
+}
+
+@media (max-width: 720px) {
+  body {
+    background-color: rgb(212, 32, 32);
+    background-image:url("tclaro.png") ;
+    background-repeat: no-repeat;
+    align-items: center;
     }
-}
 
+    .icone img{
+      padding: 20px;
+      width: 110px;
+    }
+  
+    .caixa {
+      height: 50px;
+      border-radius: 20px;
+      width: 100px;
+    }
+
+    .principal {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+      
+      
+     
+    
+    }    
+
+    }
