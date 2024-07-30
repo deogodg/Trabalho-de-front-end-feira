@@ -54,6 +54,7 @@ border: 0;
     background-image:url("tclaro.png") ;
     background-repeat: no-repeat;
     align-items: center;
+    background-size: cover;
     }
 
     .icone img{
