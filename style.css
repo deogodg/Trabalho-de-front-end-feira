@@ -48,7 +48,7 @@ border: 0;
   width: 250px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   body {
     background-color: rgb(212, 32, 32);
     background-image:url("tclaro.png") ;
@@ -59,23 +59,27 @@ border: 0;
     .icone img{
       padding: 20px;
       width: 110px;
+    
     }
   
     .caixa {
-      height: 50px;
+      height: 770px;
       border-radius: 20px;
       width: 100px;
+      
     }
 
     .principal {
       display: flex;
-      flex-direction: row;
+      
       flex-wrap: wrap;
-      
-      
-      
-     
+    }  
     
-    }    
+    .icone_pagina{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
 
     }
