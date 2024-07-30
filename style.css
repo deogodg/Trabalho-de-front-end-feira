@@ -50,7 +50,7 @@ border: 0;
 
 @media (min-width: 900px) {
   body {
-    background-color: rgb(212, 32, 32);
+    background-color: rgb(0, 0, 0);
     background-image:url("tclaro.png") ;
     background-repeat: no-repeat;
     align-items: center;
@@ -59,7 +59,7 @@ border: 0;
 
     .icone img{
       padding: 20px;
-      width: 110px;
+      width: 130px;
     
     }
   
