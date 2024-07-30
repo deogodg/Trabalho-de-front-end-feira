@@ -58,16 +58,15 @@ border: 0;
     }
 
     .icone img{
-      padding: 500px;
+      padding: 20px;
       width: 200px;
     
     }
   
     .caixa {
-      height: 300px;
+      height: 1220px;
       border-radius: 25px;
       width: 200px;
-      align-itens: center;
       
     }
 
